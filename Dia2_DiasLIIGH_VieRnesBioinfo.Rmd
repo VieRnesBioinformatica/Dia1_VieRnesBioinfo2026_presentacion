@@ -274,10 +274,10 @@ knitr::include_graphics("figures/rmarkdown_wizards.png")
 ## Proyectos de la Comunidad
 
 .pull-left[
-- Dr. Jose Luis Tellez - *C. elegans* como modelo de estudio de enfermedades raras y resistencia a antiparasitarios
-- Dr. Diego Cortes - Tortugas, lagartijas 
-- Dr. Claudia Gonzaga - Enfermedades raras | Variantes estructurales
-- Dr. Federico Sánchez - Explorando la historia evolutiva y la genética poblacional en México a través de datos paleogenómicos
+- **Dr. Jose Luis Tellez** - *C. elegans* como modelo de estudio de enfermedades raras y resistencia a antiparasitarios
+- **Dr. Diego Cortes** - Reducción del cromosoma Y | Tortugas, lagartijas 
+- **Dr. Claudia Gonzaga** - Enfermedades raras | Variantes estructurales
+- **Dr. Federico Sánchez** - Explorando la historia evolutiva y la genética poblacional en México a través de datos paleogenómicos
 ]
 
 .pull-right[
@@ -320,6 +320,44 @@ class: center, middle
 ### 16 clases
 
 ---
+## STAFF: VieRnes de Bioinformática en el LIIGH
+
+
+```{r, results='asis', echo=FALSE}
+cat('
+<div style="display:flex; justify-content:center; align-items:center;">
+  <div style="display:flex; justify-content:space-around; width:80%; text-align:center;">
+    <div>
+      <img src="figures/EveCoss.jpg" style="width:150px; height:150px; border-radius:50%; object-fit:cover;"><br>
+      <b>Evelia Coss</b><br>
+      Coordinadora<br>Instructora
+    </div>
+    <div>
+      <img src="figures/IsraelAguilar.jpg" style="width:150px; height:150px; border-radius:50%; object-fit:cover;"><br>
+      <b>Israel Aguilar</b><br>
+      Coordinador<br>Instructor
+    </div>
+    <div>
+      <img src="figures/JorgeSuazo.jpeg" style="width:150px; height:150px; border-radius:50%; object-fit:cover;"><br>
+      <b>Jorge Suazo</b><br>
+      Desarrollo web<br>Instructor
+    </div>
+    <div>
+      <img src="figures/DanielaRobles.png" style="width:150px; height:150px; border-radius:50%; object-fit:cover;"><br>
+      <b>Daniela Robles</b><br>
+      Coordinadora<br>LIIGH
+    </div>
+  </div>
+</div>
+')
+
+```
+
+```{r, echo=FALSE, out.width='50%', fig.align='center'}
+knitr::include_graphics("figures/webeliveinyou.png")
+```
+
+---
 ## VieRnes de Bioinformática (Parte 5)
 
 .pull-left[
@@ -329,6 +367,7 @@ Temas:
 - Manipulación de datos (vector y dataframe)
 - El ABC de las **funciones**
 - Documentación con roxygen
+- stringr
 - Introducción a **Quarto** (paginas web)
 - Crear presentaciones con **Rmarkdown**
 - **Estadística** para datos biológicos
@@ -363,7 +402,7 @@ knitr::include_graphics("figures/ggplot2_masterpiece.png")
 
 .pull-right[
 ```{r, echo=FALSE, out.width='120%', fig.align='center'}
-knitr::include_graphics("figures/webeliveinyou.png")
+knitr::include_graphics("figures/horst_rstudio_air.png")
 ```
 ]
 
@@ -420,6 +459,13 @@ Este espacio es nuestra manera de **aprender, compartir y crecer juntos**.
 
 
 .left-col[
+
+**STAFF**
+
+- Dra. Evelia Coss
+- Dr. Israel Aguilar
+- Jorge Alfredo Suazo 
+
 **Coordinación del LIIGH**
 
 - Dra. Daniela Robles 
@@ -429,12 +475,6 @@ Este espacio es nuestra manera de **aprender, compartir y crecer juntos**.
 - Eglee Lomelin 
 - Luis Aguilar
 - Jair Santiago García
-
-**STAFF**
-
-- Dra. Evelia Coss
-- Dr. Israel Aguilar
-- Jorge Alfredo Suazo 
 
 ]
 
